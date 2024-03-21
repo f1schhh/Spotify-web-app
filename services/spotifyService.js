@@ -3,7 +3,7 @@ import axios from 'axios';
 import querystring from 'query-string';
 import SpotifyWebApi from 'spotify-web-api-js';
 
-const clientId = '57511842e2aa48f1b7f5b165f2514c9f';
+const clientId = 'YOUR CLIENT ID';
 const redirectUri = 'http://localhost:5173/callback'; // Change this to your actual redirect URI
 
 function generateRandomString(length) {
